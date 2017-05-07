@@ -1,0 +1,36 @@
+body {
+  background-image: url("http://www.clipartbest.com/cliparts/4cb/ogB/4cbogBMoi.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: 300px;
+}
+h1 {
+  background-color: blue;
+  opacity: 0.7;
+  font-family: Helvetica;
+  text-align: center;
+  border-style: double;
+  margin-bottom: 75px;
+}
+h2 {
+  font-family: Helvetica;
+  text-align: left;
+}
+h3 {
+  margin-right: 300px;
+  border: double;
+  padding-left: 20px;
+}
+div {
+  background-color: rgb(107, 138, 229);
+  position: static;
+  border: solid gray;
+  width: auto;
+  margin-right: 300px;
+  padding: 20px 20px 20px 20px
+}
+p:hover::first-letter {
+  color: yellow;
+  font-size: 20px;
+}

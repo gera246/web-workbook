@@ -1,0 +1,36 @@
+article {
+  padding: 10px;
+  border: 2px gray solid;
+}
+
+h1, footer {
+    font-weight: lighter;
+    font-family: Helvetica;
+    padding: 1em;
+    color: black;
+    background-color: rgb(137, 244, 66);
+    clear: left;
+    text-align: center;
+}
+
+img {
+  padding-right: 30px;
+}
+
+h4 {
+  font-weight: lighter;
+  text-align: center;
+  font-family: Helvetica;
+  background-color: rgb(137, 244, 66);
+}
+
+h2 {
+  font-family: Helvetica;
+}
+
+body {
+  background-color: rgb(238, 239, 237);
+}
+
+a:hover {
+  color: red;
