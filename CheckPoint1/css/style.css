@@ -1,0 +1,308 @@
+
+body{padding:0;margin:0;font:13px Arial,Helvetica,Garuda,sans-serif;*font-size:small;*font:x-small;}
+h1,h2,h3,h4,h5,h6,ul,li,em,strong,pre,code{padding:0;margin:0;line-height:1em;font-size:100%;font-weight:normal;font-style: normal;}
+table{font-size:inherit;font:100%;}
+ul{list-style:none;}
+img{border:0;}
+p{margin:1em 0;}
+/* CSS Reset ^^^ */
+body {
+  background-attachment: fixed;
+  background-image: url("CheckPoint1Images/gameiconbackground.jpg")
+}
+nav {
+  opacity: .9;
+  width: 100%;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.retro {
+  display: inline-block;
+}
+h1 {
+  display: inline-block;
+  background-color: gray;
+  border: double;
+  border-color: black;
+  border-width: thick;
+  border-radius: 40px;
+  font-size: 40px;
+  color: rgb(198, 9, 9);
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  margin-left: 10px;
+  width: 350px;
+  font-family: 'Atomic Age', cursive;
+}
+.sub {
+  background-color: black;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+.input[type=text] {
+    display: inline-block;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/* When the input field gets focus, change its width.*/
+input[type=text]:focus {
+    width: 100%;
+}
+.buttons {
+  font-family: 'Atomic Age', cursive;
+  margin-top: -50px;
+  margin-right: 15px;
+  float: right;
+  display: inline-block;
+}
+.inventory:hover {
+  background-color: hotpink;
+}
+.inventory {
+  display: inline-block;
+  font-size: 17px;
+  text-align: center;
+  background-color: red;
+  border-radius: 25px;
+  border: double;
+  color: black;
+  width: 100px;
+  height: 30px;
+  padding-top: 13px;
+}
+.packages:hover {
+  background-color: hotpink;
+}
+.packages {
+  display: inline-block;
+  font-size: 17px;
+  text-align: center;
+  background-color: blue;
+  border-radius: 25px;
+  border: double;
+  color: black;
+  width: 100px;
+  height: 30px;
+  padding-top: 13px;
+}
+.clearance:hover {
+  background-color: hotpink;
+}
+.clearance {
+  display: inline-block;
+  font-size: 17px;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 25px;
+  border: double;
+  color: black;
+  width: 100px;
+  height: 30px;
+  padding-top: 13px;
+}
+.accessories:hover {
+  background-color: hotpink;
+}
+.accessories {
+  display: inline-block;
+  font-size: 17px;
+  text-align: center;
+  background-color: green;
+  border-radius: 25px;
+  border: double;
+  color: black;
+  width: 120px;
+  height: 30px;
+  padding-top: 13px;
+}
+.search {
+  border-bottom: solid black;
+  float: left;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 20px;
+  background-color: red;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  width: 400px;
+}
+.collection {
+  position: absolute;
+  float: left;
+  padding-top: 160px;
+  width: 600px;
+  height: 450px;
+  margin-left: -240px;
+}
+.virtual {
+  padding: 15px;
+  width: 140px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: yellow;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-left: -320px;
+  margin-top: 610px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+.virtual:hover {
+  background-color: hotpink;
+}
+.nes {
+  padding: 15px;
+  width: 90px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: yellow;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-left: -320px;
+  margin-top: 422px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+.nes:hover {
+  background-color: hotpink;
+}
+.snes {
+  padding: 15px;
+  width: 90px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: yellow;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-left: -320px;
+  margin-top: 285px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+.snes:hover {
+  background-color: hotpink;
+}
+.n {
+  padding: 15px;
+  width: 90px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: yellow;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-top: 80px;
+  margin-left: -240px;
+}
+.n:hover {
+  background-color: hotpink;
+}
+.cube {
+  padding: 15px;
+  width: 160px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: yellow;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-left: -40px;
+  margin-top: 80px;
+  transform-origin: left top 0;
+}
+.cube:hover {
+  background-color: hotpink;
+}
+.wii {
+  padding: 15px;
+  width: 100px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: yellow;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-left: 75px;
+  margin-top: 80px;
+  transform-origin: left top 0;
+}
+.wii:hover {
+  background-color: hotpink;
+}
+.about {
+  padding: 10px;
+  width: 90px;
+  font-size: 20px;
+  font-family: 'Atomic Age', cursive;
+  background-color: green;
+  border: double;
+  border-radius: 10px;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-top: 665px;
+  margin-left: -240px;
+}
+.about:hover {
+  background-color: hotpink;
+}
+.fbox {
+  width: 100%;
+  margin-top: 650px;
+  margin-right: 35em;
+  border-top: solid red 10px;
+  background-color: black;
+  height: 150px;
+}
+.contact {
+  padding: 10px;
+  width: 90px;
+  font-size: 20px;
+  font-family: 'Atomic Age', cursive;
+  background-color: yellow;
+  border: double;
+  border-radius: 10px;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-top: 665px;
+  margin-left: -113px;
+}
+.contact:hover {
+  background-color: hotpink;
+}
+.sell {
+  padding: 10px;
+  width: 90px;
+  font-size: 20px;
+  font-family: 'Atomic Age', cursive;
+  background-color: red;
+  border: double;
+  border-radius: 10px;
+  border-bottom: solid black;
+  border-right: solid black;
+  float: left;
+  margin-top: 665px;
+  margin-left: -370px;
+}
+.sell:hover {
+  background-color: hotpink;
+}
+.phone {
+  color: white;
+  padding: 10px;
+  width: 330px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+  float: left;
+  margin-top: 665px;
+  margin-left: -800px;
+}
