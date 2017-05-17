@@ -1,0 +1,65 @@
+.body-container {
+  background-color: gray;
+  width: 80%;
+  margin-left: 10%;
+}
+.welcome {
+  background-color: #2bcdc0;
+  padding: 60px 0;
+  text-align: center;
+}
+.welcome h1 {
+  color: white;
+  font-size: 48px;
+}
+.article-container {
+  background-color: black;
+  display: inline-block;
+  color: white;
+}
+.article-container article {
+  display: inline-block;
+  width: 30%;
+  padding: 7px;
+}
+.article-container h2, p{
+  margin-top: 0px;
+  text-align: center;
+}
+.colorbox {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 50%;
+}
+.bluebox {
+  background-color: blue;
+}
+.orangebox {
+  background-color: orange;
+}
+.tealbox {
+  background-color: teal;
+}
+@media (max-width: 767px) {
+  .body-container {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .welcome {
+    background-color: blue;
+  }
+  .article-container {
+    padding: 15px;
+    background-color: #cccccc;
+  }
+  article {
+    font-size: 20px;
+    color: black;
+  }
+  .article-container article {
+    width: 100%;
+    display: block;
+  }
+}
