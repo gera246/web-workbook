@@ -1,0 +1,84 @@
+.content {
+  background-color: rgb(73, 170, 118);
+}
+.header-text {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.subhead {
+  font-family: helvetica;
+  text-align: center;
+  color: rgb(206, 206, 206);
+  margin-bottom: 40px;
+}
+.row2header {
+  margin-top: -1px;
+  background-color: white;
+  padding: 25px 0px 0px 20px
+}
+.row2par {
+  color: gray;
+  font-size: 13px;
+  margin-top: -10px;
+  background-color: white;
+  padding: 10px 20px 30px 20px;
+}
+.row22par {
+  color: gray;
+  font-size: 13px;
+  margin-top: -10px;
+  background-color: white;
+  padding: 10px 20px 62px 20px;
+}
+.modu1 {
+  width: 49%;
+}
+.lake {
+  max-height: 100%;
+  max-width: 100%;
+}
+.modu2 {
+  width: 49%;
+}
+.mountain {
+  max-height: 100%;
+  max-width: 100%;
+}
+.row3header {
+  margin-top: -1px;
+  background-color: white;
+  padding: 25px 0px 0px 15px
+}
+.row3par {
+  color: gray;
+  font-size: 13px;
+  margin-top: -10px;
+  background-color: white;
+  padding: 10px 20px 50px 15px;
+}
+.modu3 {
+  margin-top: 25px;
+  width: 24%;
+}
+.river {
+  max-height: 100%;
+  max-width: 100%;
+}
+.modu4 {
+  margin-top: 25px;
+  width: 24%;
+}
+.snow {
+  max-width: 100%;
+  max-height: 100%;
+}
+.modu5 {
+  background-color: white;
+  margin-top: 25px;
+  margin-right: 15px;
+  width: 45%;
+}
+.row33par {
+  margin-bottom: 130px;
+}
