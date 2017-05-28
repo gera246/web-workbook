@@ -1,0 +1,201 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+p {
+  text-align: center;
+  padding-top: 15px;
+}
+.box1 {
+  transition-property: width, height;
+  transition-duration: all .5s;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+.box1:hover {
+  transition: all 1.5s linear;
+  transform: translateX(200px) rotate(360deg);
+  width: 100px;
+  height: 100px;
+}
+.box2 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box2:hover {
+  transition: all 1.5s linear;
+  transform: translateX(-200px) rotate(-360deg);
+  width: 25px;
+  height: 25px;
+}
+.box3 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box3:hover {
+  transition: all 1.5s linear;
+  transform: translateX(200px) rotate(360deg);
+  width: 100px;
+  height: 100px;
+}
+.box4 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box4:hover {
+  transition: all 1.5s linear;
+  transform: translateX(-200px) rotate(-360deg);
+  width: 25px;
+  height: 25px;
+}
+.box5 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: orange;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box5:hover {
+  transition: all 1.5s linear;
+  transform: translateX(200px) rotate(360deg);
+  width: 100px;
+  height: 100px;
+}
+.box6 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: hotpink;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box6:hover {
+  transition: all 1.5s linear;
+  transform: translateX(-200px) rotate(-360deg);
+  width: 25px;
+  height: 25px;
+}
+.box7 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box7:hover {
+  transition: all 1.5s linear;
+  transform: translateX(200px) rotate(360deg);
+  width: 100px;
+  height: 100px;
+}
+.box8 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: lavender;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box8:hover {
+  transition: all 1.5s linear;
+  transform: translateX(-200px) rotate(-360deg);
+  width: 25px;
+  height: 25px;
+}
+.box9 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: magenta;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box9:hover {
+  transition: all 1.5s linear;
+  transform: translateX(200px) rotate(360deg);
+  width: 100px;
+  height: 100px;
+}
+.box10 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: skyblue;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box10:hover {
+  transition: all 1.5s linear;
+  transform: translateX(-200px) rotate(-360deg);
+  width: 25px;
+  height: 25px;
+}
+.box11 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  margin-bottom: 20px;
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+}
+.box11:hover {
+  transition: all 1.5s linear;
+  transform: translateX(200px) rotate(360deg);
+  width: 100px;
+  height: 100px;
+}
+.box12 {
+  transition-property: width, height;
+  transition-duration: .5s;
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 50px;
+}
+.box12:hover {
+  transition: all 1.5s linear;
+  transform: translateX(-200px) rotate(-360deg);
+  width: 25px;
+  height: 25px;
+}
