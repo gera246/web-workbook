@@ -8,8 +8,14 @@ p{margin:1em 0;}
 /* CSS Reset ^^^ */
 body {
   background-attachment: fixed;
-  background-image: url("/Users/MOLxGERA/Documents/web-workbook/CheckPoint1/CheckPoint1Images/gameiconbackground.jpg");
+/*--- I tried everything to make the background image show up
+in github but nothing has worked. My other image is in my
+html file while this one is in the CSS file. I know that has
+something to do with it. ---*/
+  background-image: url("web-workbook/CheckPoint1/CheckPoint1Images/gameiconbackground.jpg");
 }
+/*--- I wanted to make the navbar simple yet pop out, so I used
+bright colors for the buttons. ---*/
 nav {
   opacity: .9;
   width: 100%;
@@ -48,7 +54,7 @@ h1 {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-/* When the input field gets focus, change its width.*/
+/* When someone clicks in the search field, it changes its width.*/
 input[type=text]:focus {
     width: 100%;
 }
@@ -59,6 +65,9 @@ input[type=text]:focus {
   float: right;
   display: inline-block;
 }
+/*--- I decided to make the buttons red, blue, green, and yellow
+because old school game controllers used those colors for the
+buttons. Sort of like a reference to them. ---*/
 .inventory:hover {
   background-color: hotpink;
 }
@@ -139,6 +148,8 @@ input[type=text]:focus {
   height: 450px;
   margin-left: -240px;
 }
+/*--- These buttons change color when hovering over them:
+Virtual boy, NES, and SNES. ---*/
 .virtual {
   padding: 15px;
   width: 140px;
@@ -190,6 +201,8 @@ input[type=text]:focus {
 .snes:hover {
   background-color: hotpink;
 }
+/*--- for some reason the N64, GameCube, and Wii buttons
+don't change color when I hover over them ---*/
 .n {
   padding: 15px;
   width: 90px;
@@ -237,6 +250,10 @@ input[type=text]:focus {
 .wii:hover {
   background-color: hotpink;
 }
+/*--- I wanted to place more buttons along the right side
+of the center picture. They would have said GameBoy, Wii U,
+and Switch, but the buttons wouldn't behave and I had to
+scrap the idea. ---*/
 .about {
   padding: 10px;
   width: 90px;
@@ -262,6 +279,9 @@ input[type=text]:focus {
   background-color: black;
   height: 150px;
 }
+/*--- I wanted to keep the footer simple yet still pop out like
+the navbar. So I gave the buttons similar colors and used
+retro text for the "Call Us" as well as the phone number. ---*/
 .contact {
   padding: 10px;
   width: 90px;
