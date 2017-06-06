@@ -1,6 +1,8 @@
+/* I decided to do a sleek black design. Simple and modern-ish. */
 body {
   background-color: black;
 }
+/* I invered the colors on the nav, it was origionally white. */
 .nav1 {
   background-color: black;
 }
@@ -23,3 +25,5 @@ img {
 .ptext {
   margin-top: 5%;
 }
+/* I feel like I kept it simple and sleek, and I'm overall happy with how my site
+came out.*/
