@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(252, 215, 113)
+}
+.container1 {
+  text-align: center;
+}
+.header1 {
+  border-bottom: double 5px;
+}
+.container2 {
+  border-bottom: dotted;
+}
+.container3 {
+  padding-top: 15px;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-size: 25px;
+}
+.chimitext {
+  color: rgb(252, 215, 113);
+}
+
+.alignleft {
+  font-size: 25px;
+	float: left;
+}
+.alignright {
+  font-size: 23px;
+	float: right;
+}
+.chimiburritext {
+  margin-top: -20px;
+}
+h6 {
+  text-align: center;
+}

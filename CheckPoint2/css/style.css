@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+.nav1 {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: gray;
+}
+h3 {
+  color: gray;
+}
+p {
+  color: white;
+  text-align: left;
+}
+img {
+  margin-top: 10%;
+  height: 100%;
+  width: 100%;
+}
+.ptext {
+  margin-top: 5%;
+}
