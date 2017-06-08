@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+<meta charset="utf-8">
+  <head>
+    <title>Puppy Age Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+<body>
+
+<!-- Puppy Age Calculator -->
+
+<div class="fun1">
+  <h1 class="fun11">Function 1</h1>
+  <h2>Your pupper/doggo is <span id="myFunction"></span> years old!</h2>
+  <h1>
+    <script>
+      var yrInput = 4;
+      var petAge = 7;
+      function myFunction(yrInput, petAge)
+{
+    return yrInput * petAge
+}
+     document.getElementById("myFunction").innerHTML = myFunction(2,8);
+  </script>
+</div>
+
+<!-- Lifetime Supply Calculator -->
+
+<div class="fun2">
+  <h1 class="fun22">Function 2</h1>
+  <h2>You will need <span id="myFunction2"></span> moonpies to last you until the ripe old age of <span id="myFunction3"></span></h2>
+    <script>
+      var yourAge = 20;
+      var amountPerDay = 5;
+        function myFunction2(yourAge, amountPerDay)
+        {
+          return yourAge * amountPerDay
+        }
+      document.getElementById("myFunction2").innerHTML = myFunction2(27,86);
+
+        function myFunction3(yourAge, amountPerDay)
+        {
+          return yourAge * amountPerDay
+        }
+      document.getElementById("myFunction3").innerHTML = myFunction3(15,5);
+  </script>
+</div>
+
+</body>
+</html>
