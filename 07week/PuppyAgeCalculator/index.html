@@ -28,7 +28,7 @@
 
 <div class="fun2">
   <h1 class="fun22">Function 2</h1>
-  <h2>You will need <span id="myFunction2"></span> moonpies to last you until the ripe old age of <span id="myFunction3"></span></h2>
+  <h2>You will need <span id="myFunction2"></span> moon pies to last you until the ripe old age of <span id="myFunction3"></span></h2>
     <script>
       var yourAge = 20;
       var amountPerDay = 5;
@@ -45,6 +45,26 @@
       document.getElementById("myFunction3").innerHTML = myFunction3(15,5);
   </script>
 </div>
+
+<!-- Temperature Converter -->
+
+<div class="lastfun">
+  <h1 class="lastfunn">Last Function</h1>
+  <h2>Celcius is <span id="celToFaren"></span> degrees in Farenheit.</h2>
+    <script>
+      var temp = 1;
+      var cel = (1.8) + 32;
+        function celToFaren(temp, cel)
+        {
+          return temp * cel;
+        }
+      document.getElementById("celToFaren").innerHTMl = celToFaren(1)
+    </script>
+</div>
+
+
+
+
 
 </body>
 </html>

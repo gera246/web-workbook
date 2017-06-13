@@ -1,40 +1,30 @@
 <!Doctype>
 <html>
 <head>
-  <title>Javascript Tutorial</title>
-    <script>
-    var date = new Date();
-  var day = date.getDay();
-var dayWord;
+  <title>placeholder</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <ul id="myList">
+    <li>First List Item</li>
+    <li>Second List Item</li>
+    <li>Third List Item</li>
+    <li>Fourth List Item</li>
+  </ul>
+  <div id="div" >
+    <p class="paragraph" id="P1">Paragraph 1</p>
+    <p class="paragraph" id="P2">Paragraph 2</p>
+    <p class="paragraph" id="P3">Paragraph 3</p>
+    <p class="paragraph" id="P4">Paragraph 4</p>
+  </div>
+<script>
+  document.title = "Manipulating the DOM!";
 
-switch(day)
-{
-case 0:
-dayWord = "Sunday";
-break;
-case 1:
-dayWord = "Monday";
-break;
-case 2:
-dayWord = "Tuesday";
-break;
-case 3:
-dayWord = "Wednesday";
-break;
-case 4:
-dayWord = "Thursday";
-break;
-case 5:
-dayWord = "Friday";
-break;
-case 6:
-dayWord = "Saturday";
-break;
-}
-  alert(dayWord);
-    </script>
-  </head>
-  <body>
-    <h1>Hey, this is a javascript test</h1>
-  </body>
+  window.alert("There are 4 list items on this page!")
+
+  var li = document.createElement("LI");
+  var t = document.createTextNode("Fifth List Item");
+</script>
+
+</body>
 </html>
